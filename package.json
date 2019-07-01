@@ -1,0 +1,35 @@
+{
+  "name": "flyn",
+  "version": "0.0.4",
+  "description": "Flyn is a multi framework package that makes easy to create routes for controllers.",
+  "main": "router",
+  "author": "Gabriel Freitas (github.com/nneutrinno)",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "fs-readdir-recursive": "^1.1.0"
+  },
+  "keywords": [
+    "framework",
+    "web",
+    "router",
+    "controller",
+    "controllers",
+    "create",
+    "view",
+    "engine",
+    "flyn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nneutrinno/flyn.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nneutrinno/flyn/issues"
+  },
+  "homepage": "https://github.com/nneutrinno/flyn#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

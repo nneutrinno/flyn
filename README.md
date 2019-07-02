@@ -40,7 +40,7 @@ app.listen(process.env.PORT, () => {
 // ./routes/GET.status.js
 
 /*
-  FILE PATH == './routes/GET.status.js'
+  FILE PATH === './routes/GET.status.js'
   METHOD === 'GET'
   URL === '/status'
 */
@@ -58,7 +58,7 @@ module.exports = app => (req, res) => {
 // ./routes/entities/POST.user.js
 
 /*
-  FILE PATH == './routes/entities/POST.user.js'
+  FILE PATH === './routes/entities/POST.user.js'
   METHOD === 'POST'
   URL === '/entities/user'
 */

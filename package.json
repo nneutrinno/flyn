@@ -1,6 +1,6 @@
 {
   "name": "flyn",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Flyn is a multi framework package that makes easier to create routes for controllers.",
   "main": "router",
   "author": "Gabriel Freitas (github.com/nneutrinno)",

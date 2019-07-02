@@ -19,15 +19,16 @@ Flyn is a multi framework package that makes easier to create routes for control
 ``` javascript
 const app = require('express')()
 
-
-
 flyn({
   path: './routes', // default
   logger: true // default
 })(app)
 
 app.listen(process.env.PORT, () => {
-  console.log('Server running on', process.env.PORT)
+  console.log(
+    'Server running on', 
+    process.env.PORT
+  )
 })
 
 ```
@@ -59,12 +60,14 @@ module.exports = app => (req, res) => {
 }
 ```
 
-## Suporting
+## Compatibility
 
+### Now
  -- Express
  -- Fastify
+ 
+### Soon
  -- Hapi
-
  -- Koa
  -- NestJs
 

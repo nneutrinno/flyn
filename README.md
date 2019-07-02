@@ -65,9 +65,9 @@ module.exports = app => (req, res) => {
 ### Now
  -- Express
  -- Fastify
+ -- Hapi
  
 ### Soon
- -- Hapi
  -- Koa
  -- NestJs
 

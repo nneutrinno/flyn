@@ -63,13 +63,13 @@ module.exports = app => (req, res) => {
 ## Compatibility
 
 ### Now
- -- Express
- -- Fastify
- -- Hapi
+ - Express
+ - Fastify
+ - Hapi
  
 ### Soon
- -- Koa
- -- NestJs
+ - Koa
+ - NestJs
 
 ## License
 

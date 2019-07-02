@@ -21,7 +21,8 @@ const app = require('express')()
 
 flyn({
   path: './routes', // default
-  logger: true // default
+  logger: true, // default
+  prefix: '' // default
 })(app)
 
 app.listen(process.env.PORT, () => {

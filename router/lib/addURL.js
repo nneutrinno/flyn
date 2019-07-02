@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const addURL = route => {
+const addURL = prefix => route => {
   const { path, name } = route
   const toURL = name => {
     return name
@@ -17,7 +17,7 @@ const addURL = route => {
     .map(toURL)
     .join("/")
   return {
-    url,
+    url: `${prefix}${url}`,
     ...route
   }
 }

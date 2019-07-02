@@ -12,7 +12,7 @@ const addURL = require("./lib/addURL")
 const remove = require("./lib/remove")
 
 
-module.exports = ({ path: folderPath = "./routes", logger = true } = {}) => app => {
+module.exports = ({ path: folderPath = "./routes", logger = true, prefix = '' } = {}) => app => {
 
   const rootFolderPath = path.resolve(folderPath)
 
@@ -31,7 +31,7 @@ module.exports = ({ path: folderPath = "./routes", logger = true } = {}) => app 
     .map(addFileName)
     .map(addName)
     .map(addMethod)
-    .map(addURL)
+    .map(addURL(prefix))
     .map(remove(["fileName", "name"]))
 
   if (logger) console.log(routes)

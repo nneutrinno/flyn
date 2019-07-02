@@ -1,6 +1,6 @@
 # Flyn
 
-Flyn is a multi framework package that makes to create routes for controllers.
+Flyn is a multi framework package that makes easier to create routes for controllers.
 
 ## Install
 
@@ -59,6 +59,14 @@ module.exports = app => (req, res) => {
 }
 ```
 
+## Suporting
+
+ -- Express
+ -- Fastify
+ -- Hapi
+
+ -- Koa
+ -- NestJs
 
 ## License
 

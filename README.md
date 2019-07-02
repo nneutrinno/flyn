@@ -38,6 +38,12 @@ app.listen(process.env.PORT, () => {
 ```js
 // ./routes/GET.status.js
 
+/*
+  FILE PATH == './routes/GET.status.js'
+  METHOD === 'GET'
+  URL === '/status'
+*/
+
 module.exports = app => (req, res) => {
 
   return res.send({
@@ -48,7 +54,13 @@ module.exports = app => (req, res) => {
 
 ### Another endpoint file example
 ```js
-// ./routes/POST.user.js
+// ./routes/entities/POST.user.js
+
+/*
+  FILE PATH == './routes/entities/POST.user.js'
+  METHOD === 'POST'
+  URL === '/entities/user'
+*/
 
 module.exports = app => (req, res) => {
 

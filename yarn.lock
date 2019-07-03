@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+framework-identifier@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/framework-identifier/-/framework-identifier-0.0.2.tgz#fbd9bc517c38b8405b94a4f3b248026cd11d51a7"
+  dependencies:
+    lodash "^4.17.11"
+
 fs-readdir-recursive@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.1.0.tgz#e32fc030a2ccee44a6b5371308da54be0b397d27"
